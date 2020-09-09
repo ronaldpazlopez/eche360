@@ -1,0 +1,35 @@
+
+<!-- SRC: https://threejs.org/examples/#webgl_performance
+
+PHOTO: https://raw.githubusercontent.com/mrdoob/three.js/master/examples/textures/2294472375_24a3b8ef46_o.jpg
+-->
+
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+        <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    
+    
+    <div id="play">
+        <div>
+            <button id="startButton">Iniciar recorrido</button>
+        </div>
+    </div> 
+       <div id="preloader"></div>  
+    <div id="container"></div>
+     <video id="video" loop crossOrigin="anonymous" playsinline style="display:none">
+      <source src="videos/walking_Couple.webm" type='video/webm; codecs="vp8, vorbis"' />
+        <!--  <source src="videos/ironmanalfha.avi" type='video/avi;' />-->
+    </video>
+    
+    <script src="script/isMobile.min.js"></script>   
+    <script src="script/TweenMax.min.js"></script>   
+    <script src="script/EventBus.js"></script>   
+    <script src="script/three.js"></script>   
+    <script src="script/OrbitControls.js"></script>
+    <script src="script/script360.js"></script>
+ </body>
+</html>
