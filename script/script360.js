@@ -33,10 +33,12 @@ var startButton = document.getElementById( 'startButton' );
 
 function init() {
   
-  var play = document.getElementById( 'play' );
+ // var play = document.getElementById( 'play' );
   //play.remove();  
         
-
+var d = document.getElementById ("play");
+if (d) {d.parentNode.removeChild (d); } 
+	
   // Scene
   scene = new THREE.Scene();
   group = new THREE.Group();
