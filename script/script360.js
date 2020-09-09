@@ -380,11 +380,11 @@ if (d) {d.parentNode.removeChild (d); }
     planeVideo.position.z = -6.7;
     planeVideo.name='planeVideo';
     // plane.rotation.y = (0.5 * Math.PI);
-    //scene.add( planeVideo );
+    scene.add( planeVideo );
         
     
     video = document.getElementById( 'video' );
-   // video.play();
+    video.play();
 
     /////////////// END VIDEO  ////////////////////////
       
